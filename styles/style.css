@@ -1,0 +1,144 @@
+/* White containers */
+div[data-testid="stVerticalBlock"]{
+    color:black !important;
+}
+
+/* Background */
+.stApp{
+    background-color:#F4F9FF;
+}
+
+/* Top header */
+[data-testid="stHeader"]{
+    background: rgba(0,0,0,0);
+}
+
+/* Headers and subheaders */
+h1, h2, h3, h4, h5, h6{
+    color:black !important;
+    font-weight:bold !important;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"]{
+    background-color:#DCEEFF;
+}
+
+/* Form card */
+div[data-testid="stForm"]{
+    background-color:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0px 2px 15px rgba(0,0,0,0.1);
+}
+
+/* ALL LABELS */
+label,
+p,
+span,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color:black !important;
+}
+
+/* Form labels */
+label{
+    font-weight:bold !important;
+}
+
+/* TEXT INPUT BOXES */
+.stTextInput input{
+    background-color:white !important;
+    color:black !important;
+    border:2px solid black !important;
+    border-radius:10px !important;
+}
+
+/* NUMBER INPUT BOXES */
+.stNumberInput input{
+    background-color:white !important;
+    color:black !important;
+    border:2px solid black !important;
+    border-radius:10px !important;
+}
+
+/* Selectbox */
+.stSelectbox div[data-baseweb="select"]{
+    background-color:white !important;
+    color:black !important;
+}
+
+/* Multiselect */
+.stMultiSelect div[data-baseweb="select"]{
+    background-color:white !important;
+    color:black !important;
+}
+
+/* Dataframe */
+[data-testid="stDataFrame"]{
+    background-color:white !important;
+}
+
+[data-testid="stDataFrame"] *{
+    color:black !important;
+}
+
+/* Buttons */
+.stButton button,
+.stFormSubmitButton button{
+    background-color:#1E88E5 !important;
+    color:white !important;
+    border-radius:12px !important;
+    font-weight:bold !important;
+}
+
+/* Altair Charts */
+div[data-testid="stVegaLiteChart"]{
+    background-color:white !important;
+    border-radius:15px !important;
+    padding:20px !important;
+    box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+}
+
+/* Plot area */
+.vega-embed{
+    background-color:white !important;
+}
+
+/* General chart containers */
+div[data-testid="stElementContainer"] iframe{
+    background-color:white !important;
+}
+
+/* INNER SELECT BOX */
+div[data-baseweb="select"]{
+    background-color:white !important;
+    border:none !important;
+}
+
+/* SELECT BOX ONLY */
+div[data-baseweb="select"]{
+    background-color:white !important;
+    border:2px solid black !important;
+    border-radius:15px !important;
+    box-shadow:0px 2px 10px rgba(0,0,0,0.1);
+}
+
+div[data-baseweb="select"] *{
+    color:black !important;
+}
+
+/* DROPDOWN MENU */
+div[role="listbox"]{
+    background-color:white !important;
+}
+
+div[role="option"]{
+    background-color:white !important;
+    color:black !important;
+}
